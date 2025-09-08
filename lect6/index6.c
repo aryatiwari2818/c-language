@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    /*int rev = 0;
+    int rev = 0;
     int num;
     printf("enter num=");
-    scanf("%d", num);
+    scanf("%d", &num);
     while (num != 0)
     {
         int lastdig = num % 10;
@@ -13,7 +13,7 @@ int main()
 
     }
 printf("reversed digit=%d", rev);
-}*/
+}
     /*int num;
     int fact = 1;
     int i = 1;
@@ -48,7 +48,7 @@ printf("reversed digit=%d", rev);
         return 0;
     }*/
 
-    int num;
+   /*/ int num;
     int count = 0;
     printf("enter num");
     scanf("%d", &num);
@@ -74,4 +74,4 @@ printf("reversed digit=%d", rev);
     {
         printf("not prime");
     }
-}
+}*/
