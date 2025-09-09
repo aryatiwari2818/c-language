@@ -35,7 +35,7 @@ int main()
          printf("\n");
      }
  }*/
-    // upper left triangle
+    // lower right triangle
     /* for (int i = 0; i < 3; i++)
      {
          for (int j = 3; j > i; j--)
@@ -45,22 +45,23 @@ int main()
          printf("\n");
      }
  }*/
-    // upper right triangle
-    /* for (int i = 0; i < 3; i++)
+    // upper left triangle
+    for (int i = 0; i < 3; i++)
         {
 
-            for (int j = 3; j > i; j--)
+            for (int j = 3; j > i; j--) 
             {
                 printf(" ");
             }
+
             for (int k = 0; k <= i; k++)
             {
                 printf("*");
             }
             printf("\n");
         }
-    }*/
-    // lower triangle
+    }
+    // lower left triangle
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j <= i; j++)
