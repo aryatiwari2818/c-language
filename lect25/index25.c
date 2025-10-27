@@ -47,7 +47,7 @@ int main(){
     }
     return 0;
 }*/
-int main()
+/*int main()
 {
 
     int arr[5] = {1, 7, 3, 4, 5};
@@ -69,7 +69,7 @@ int main()
         }
     }
     rmax[4] = arr[4];
-    for (int i = 3; i >= 0; i--)
+    for (int i = 3 ; i >= 0; i--)
     {
         if (arr[i] > rmax[i + 1])
         {
@@ -91,4 +91,5 @@ int main()
     }
     printf("total water=%d", water);
     return 0;
-}
+}*/
+

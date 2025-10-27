@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include<string.h>
-//int main()
+//#include<string.h>
+int main()
 //{
    /*int arr[]={1,2,3,4,5};
    
@@ -24,35 +24,11 @@
     printf("%d",maxarea);
 }*/
 //two pointer approach
-/*int arr[]={1,8,6,2,5,4,8,3,7};
-int maxarea=0;
-int area;
-int height;
-int width;
-int i=0;
-int j=8;
-while(i<j){
-if(arr[i]<arr[j]){
-    height=arr[i];
-}
-else{
-    height=arr[j];
-}
-width=j-i;
-area=height*width;
-if(area>maxarea){
-    maxarea=area;
-}
-if(arr[i]<arr[j]){
-    i++;
-}
-else{
-j--;}
-}
-printf("%d",maxarea);
-}*/
+int arr[]={1,2,3,4,5};
+int 
+
 //structure
-struct address{
+/*struct address{
     
     int pincode;
 };
@@ -74,7 +50,7 @@ int main(){
     printf("name=%s\n ",s1.name);
     s1.s2.pincode=482001;
     printf("pincode=%d\n ",s1.s2.pincode);
-}
+}*/
 
 
    
